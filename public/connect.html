@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Connect</title>
+  </head>
+  <body>
+    <h1>Connect page</h1>
+    <button id="button-start">Start</button>
+    <button id="button-pause">Pause</button>
+    <button id="button-reset">Reset</button>
+    <div>
+      <p>Sản phẩm thấp: <span id="count-short">0</span></p>
+    </div>
+    <div>
+      <p>Sản phẩm trung bình: <span id="count-medium">0</span></p>
+    </div>
+    <div>
+      <p>Sản phẩm cao: <span id="count-tall">0</span></p>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/connect.js"></script>
+  </body>
+</html>
